@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DnDArtemis</string>
+    <string name="character_name">Kefka</string>
+    <string name="character_class">Knight</string>
+</resources>
