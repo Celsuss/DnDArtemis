@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/cardsColor"
+            android:layout_marginEnd="7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Strength"
+                    android:textSize="24dp"
+                    android:textColor="@color/primaryTextColor"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Score"
+                            android:textSize="16dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="20"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Modifier"
+                            android:textSize="14dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+5"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Save"
+                            android:textSize="16dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+7"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/cardsColor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Intelligence"
+                    android:textSize="24dp"
+                    android:textColor="@color/primaryTextColor"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Score"
+                            android:textSize="16dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="18"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Modifier"
+                            android:textSize="14dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+4"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Save"
+                            android:textSize="16dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+4"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/cardsColor"
+            android:layout_marginEnd="7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dexterity"
+                    android:textSize="24dp"
+                    android:textColor="@color/primaryTextColor"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Score"
+                            android:textSize="16dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="6"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Modifier"
+                            android:textSize="14dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-2"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Save"
+                            android:textSize="16dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="-2"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/cardsColor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wisdom"
+                    android:textSize="24dp"
+                    android:textColor="@color/primaryTextColor"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Score"
+                            android:textSize="16dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="12"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Modifier"
+                            android:textSize="14dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+1"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Save"
+                            android:textSize="16dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+1"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/cardsColor"
+            android:layout_marginEnd="7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Constitution"
+                    android:textSize="24dp"
+                    android:textColor="@color/primaryTextColor"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Score"
+                            android:textSize="16dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="6"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Modifier"
+                            android:textSize="14dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+2"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Save"
+                            android:textSize="16dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+4"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/cardsColor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Charisma"
+                    android:textSize="24dp"
+                    android:textColor="@color/primaryTextColor"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Score"
+                            android:textSize="16dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="11"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Modifier"
+                            android:textSize="14dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+0"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="18dp"
+                            android:text="Save"
+                            android:textSize="16dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="+0"
+                            android:textSize="20dp"
+                            android:textColor="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
