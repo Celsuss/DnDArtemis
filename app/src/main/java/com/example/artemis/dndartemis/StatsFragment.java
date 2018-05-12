@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class StatsFragment extends Fragment {
+
     public StatsFragment() { }
 
     @Override

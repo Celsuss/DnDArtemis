@@ -23,6 +23,8 @@ public class SwipeAdapter extends FragmentPagerAdapter {
         switch (position){
             case 0:
                 return new StatsFragment();
+            case 1:
+                return new CombatFragment();
         }
 
         return null;
@@ -30,6 +32,6 @@ public class SwipeAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 4;
+        return 2;
     }
 }
